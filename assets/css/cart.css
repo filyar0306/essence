@@ -1,0 +1,112 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .navdiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .navdiv .collapsediv {
+  align-items: start;
+  padding-left: 20px;
+}
+header nav .navdiv .collapsediv ul {
+  width: 100%;
+}
+header nav .navdiv .collapsediv ul li {
+  font-size: 14px;
+  color: #787878;
+  font-weight: 500;
+}
+header nav .navdiv .collapsediv ul li a {
+  font-size: 14px;
+  font-weight: 500;
+}
+header nav .navdiv .headericon {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 60%;
+}
+header nav .navdiv .headericon i {
+  width: 90px;
+  display: block;
+  text-align: center;
+  border-left: 1px solid #ebebeb;
+  height: 100%;
+  line-height: 80px;
+}
+header nav .navdiv .headericon .inp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+header nav .navdiv .headericon .inp input {
+  border: none;
+  background-color: #ffffff;
+  width: 200px;
+  height: 85px;
+  color: #787878;
+  font-size: 14px;
+  font-weight: 500;
+}
+header nav .navdiv .headericon .inp button {
+  top: 50%;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  color: #997777;
+  font-size: 14px;
+}
+
+#customers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#customers .myDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#customers .myDiv img {
+  width: 100%;
+  border-radius: 10px;
+}
+#customers .myDiv h1 {
+  font-size: 23px;
+  color: #ff7a5c;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+#customers .myDiv p {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+}
+#customers .myDiv button {
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
